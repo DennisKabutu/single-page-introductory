@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 body{
     background-image: url("/images/bg-desktop.svg");
     background-repeat: no-repeat;
@@ -6,8 +8,18 @@ body{
     background-color:  hsl(257, 40%, 49%);
     color: #fff;
     font-weight: 400;
+    font-family:'Open Sans', sans-serif;
 }
 h1{
     font-family: 'Poppins',sans-serif;
     font-weight: 700;
 }
+#register{
+    background-color: #fff;
+    color: hsl(257, 40%, 49%);
+    padding: 15px 50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px ;
+}
+
